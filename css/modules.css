@@ -1,0 +1,17 @@
+section {
+    border-radius: 1em;
+    border-style: solid black; 
+}
+
+select {
+    text-align-last: center;
+    width: 30%;
+    
+    background-color: rgb(250, 227, 151);
+    border-radius: 0.5em;
+}
+
+option {
+    height: 100%;
+}
+
