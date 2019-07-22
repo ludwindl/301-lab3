@@ -82,14 +82,14 @@ function SecondHorns (horntwo) {
 
 SecondHorns.prototype.toHtml = function() {
   // 1. Get the template from the HTML document
-  let template = $('#neighborhood-template').html();
+  let template = $('#photo-template').html();
   // 2. Use Handlebars to "compile" the HTML
-  let templateRender = Handlebars.compile(template);
+  let hornTemplate = Handlebars.compile(template);
   // 3. Do not forget to return the HTML from this method
-  return templateRender(this);
+  return hornTemplate(this);
 };
 
-neighborhoodDataSet.forEach(neighborhoodObject => {
+hornArrayTheSecond.forEach(hornObject => {
   neighborhoods.push(new Neighborhood(neighborhoodObject));
 });
 
