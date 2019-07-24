@@ -28,7 +28,7 @@ Horns.prototype.render = function () {
 }
  
 Horns.readJson = () => {
-  $.get('data/page-1.json', 'json')
+  $.get('data/page-2.json', 'json')
     .then (data => {
       data.forEach(item =>{
         Horns.allHorns.push(new Horns(item));
