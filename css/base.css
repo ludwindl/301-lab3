@@ -1,10 +1,5 @@
-* {
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-}
-
 body {
-    background-image: url('/img/flower.jpg');
+  background-image: url('/img/flower.jpg');
+  font-family: 'Amatic SC', cursive;
+    text-align: center;
 }
-
